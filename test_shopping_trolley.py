@@ -19,9 +19,9 @@ class TestShoppingTrolley(object):
             allure.attach('实际结果', '添加购物车失败')
             assert 'success' == 'failed'
 
-    # @allure.story('修改购物车')
-    # def test_edit_shopping_trolley(self):
-    #     pass
+    @allure.story('修改购物车')
+    def test_edit_shopping_trolley(self):
+        pass
 
     @pytest.mark.skipif(reason='本次不执行')
     @allure.story('删除购物车')
